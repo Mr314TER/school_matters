@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table For Layouting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--In this section, you will learn how to layouting your element in HTML-->
+    <!--You need to remember that, I really not recommend to use table for layouting. But for to understand
+    Layouting in HTML, I only will teach how to use it.-->
+
+    <!--WITHOUT LAYOUT-->
+    <!--NOTE: in this section, you can use your own picture by adding it into the project file or you can add link to the source tag-->
+    <h1>WITHOUT TABLE</h1>
+    <br>
+    
+    <img src="./assets/image/bruce_lee_profile.png">
+    <h2>Bruce Lee</h2>
+    <img src="./assets/image/joe_taslim_profile.png">
+    <h2>Joe Taslim</h2>
+
+    <!--WITH LAYOUT-->
+    <!--We will add the layout with 1 rows and 2 columns-->
+    <h1>WITH TABLE</h1>
+    <br>
+
+    <table style="width: 100%;"> <!--Add style properties in "table" tag to set how big the table will be-->
+        <tr> <!--This "tr" tag will create the row that you need. If you need more row just add more "tr"-->
+            <td style="width: 50%;"> <!--Every "td" tag will create one column inside the table-->
+                <img src="./assets/image/bruce_lee_profile.png">
+                <h2>Bruce Lee</h2>
+            </td>
+            <td>
+                <img src="./assets/image/joe_taslim_profile.png">
+                <h2>Joe Taslim</h2>
+            </td>
+        </tr>
+    </table>
+
+    <!--To make more beautiful, I add a few properties to the table, image, and the heading. Please check the style.css-->
+
+</body>
+</html>
