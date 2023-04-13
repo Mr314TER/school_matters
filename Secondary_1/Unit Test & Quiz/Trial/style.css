@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#main-container {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px;
+}
+
+#header {
+    background-color: #461111;
+    grid-column: 1/5;
+    padding: 5px;
+    color: white;
+}
+
+#header img {
+    width: 20%;
+    margin: 0;
+}
+
+#navbar {
+    background-color: #461111;
+    grid-column: 1/5;
+    color: white;
+    padding: 5px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    background-color: #461111;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+}
+
+#left {
+    background-color: #A13333;
+    grid-column: 1/2;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#left img {
+    margin: 100px 0;
+    width: 100%;
+}
+
+#content {
+    background-color: #A13333;
+    grid-column: 2/4;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#content h3 {
+    margin: 5px 0;
+    color: white;
+}
+
+#content h5 {
+    margin: 5px 0;
+    color: white;
+}
+
+#content p {
+    font-size: 12px;
+    color: white;
+}
+
+#news-paragraf img {
+    float: left;
+    width: 75%;
+}
+
+#aside {
+    background-color: #A13333;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#aside img {
+    margin: 100px 0;
+    width: 100%;
+}
+
+#footer {
+    background-color: #461111;
+    grid-column: 1/5;
+    padding: 5px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footer h3, h4 {
+    margin: 5px 0 5px 25px;
+}

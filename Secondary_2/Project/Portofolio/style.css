@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;500;700&display=swap');
+
+body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    background-color: #27E1C1;
+}
+
+.navigation_bar ul {
+    background-color: #2F0F5D;
+    list-style-type: none;
+    margin: 0;
+    height: 45px;
+    text-align: right;
+}
+
+.navigation_bar li {
+    display: inline;
+}
+
+.navigation_bar a {
+    text-decoration: none;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #F5F3C1;
+    margin: 0 15px;
+}
+
+#id_container table {
+    text-align: center;
+    width: 100%;
+}
+
+#id_container img {
+    width: 40%;
+}
+
+#id_container a, h3 {
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    color: #2F0F5D;
+    text-decoration: none;
+}
