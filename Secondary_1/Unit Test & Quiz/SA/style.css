@@ -1,0 +1,178 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  /*index.html --- navigation area*/
+  
+  .nav_container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border: 2px solid black;
+  }
+  
+  .nav_container #icon {
+    flex-grow: 1;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .nav_container #icon img {
+    width: 50px;
+    margin: 3px;
+  }
+  
+  #navbar {
+    flex-grow: 5;
+    border: 2px solid black;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 15px 20px;
+  }
+  
+  #navbar li {
+    display: inline;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+    color: cadetblue;
+  }
+  
+  /*index.html --- Content area*/
+  #Welcome_message {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  #Welcome_message h3 {
+    color: cadetblue;
+    font-size: 30px;
+  }
+  
+  #footer {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+  }
+  
+  #footer .icon_area {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .icon_area img {
+    width: 100px;
+  }
+  
+  .icon_area h4 {
+    color: cadetblue;
+  }
+  
+  /*project.html --- content area*/
+  /*#project_list {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 34px;
+  }
+  
+  #project_list .list_container {
+    border: 2px solid black;
+  }*/
+  #project_carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #project_carousel .image_container {
+    border: 2px solid black;
+    margin: 10px 20px;
+    width: 25%;
+  }
+  
+  .image_container img {
+    width: 100%;
+  }
+  
+  /*profile.html --- Top profile area*/
+  #profile_top {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+  }
+  
+  #profile_top #profile_image {
+    flex-grow: 1;
+    text-align: center;
+    margin: 10px 20px;
+    border: 2px solid black;
+  }
+  
+  #profile_image img {
+    width: 60%;
+  }
+  
+  #profile_top #profile_name {
+    flex-grow: 6;
+    border: 2px solid black;
+  }
+  
+  #profile_name h2 {
+    color: cadetblue;
+    margin: 20px 15px;
+    font-size: 40px;
+  }
+  
+  #profile_name p {
+    margin: 20px 15px;
+  }
+  
+  /*profile.html --- Bottom profile area*/
+  #information_area {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+  }
+  
+  #info_table {
+    margin: 25px;
+  }
+  
+  #info_table table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+  
+  #skills_area {
+    border: 2px solid black;
+    flex-grow: 5;
+    padding: 0 15px;
+  }
+  
+  #skills_area h3 {
+    text-align: center;
+  }
+  
+  #skills_area li {
+    list-style-type: none;
+  }
